@@ -406,7 +406,7 @@ knitr::include_graphics("diagrams/environments/where-ex.png", dpi = 300)
 
 * `where(a, e4a)` will find `a` in `e4a`.
 
-* `where("b", e4a)` doesn't find `b` in `e4a`, so it looks in its parent, `e4b`,
+* `where("b", e4b)` doesn't find `b` in `e4b`, so it looks in its parent, `e4a`,
   and finds it there.
 
 * `where("c", e4a)` looks in `e4a`, then `e4b`, then hits the empty environment
